@@ -1,0 +1,92 @@
+body{
+    color:gray;
+    background-color: bisque;
+    font-size: 18px;/*gère la taille */
+    width: 980px;
+    margin: auto auto; /*permet la centralisation du body*/
+
+}
+
+h1{
+    font-size: 60px;
+    text-align: center;
+    color: black;
+    text-decoration: underline; /*soulignement du texte h1*/
+    text-transform: uppercase;
+}
+
+h2{
+    font-size: 30px;
+    text-align: left;
+    text-decoration: underline;
+    text-transform: capitalize; /*ajoute la majuscule en début de phrase*/
+    color: brown;
+
+}
+
+p{
+    font-size: 20px;
+    color: darkgreen;
+}
+.logo{
+    width: 240px;
+    height: 240px;
+}
+.search{
+    text-align: center;
+    width: 640px;
+    background-color: bisque;
+}
+.compte img{
+    width: 50px;
+    height: 50px;
+}
+header{
+    width: 980px;
+    height: 240px;
+    display: flex;
+}
+nav>ul{
+   display: flex;
+   list-style: none;
+   width: 980px;
+
+}
+nav>ul>li{
+    width: 196px;
+}
+
+article{
+   display: flex;
+   margin-bottom: 50px;
+
+}
+article>img{
+    width: 400px;
+    margin-bottom: 50px;
+}
+article:last-child{
+    flex-direction: column;  
+
+}
+article:last-child ul{
+    position: absolute;
+    margin-left: 400px;
+}
+main{
+    width: 30px;
+    height: 20px;
+}
+
+footer{
+    width: 980px;
+}
+
+footer>nav{
+    width: 490px;
+    height: 150px;
+}
+footer>address{
+    width: 490px;
+    height: 150px;
+}

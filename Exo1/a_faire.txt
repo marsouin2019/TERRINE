@@ -1,0 +1,55 @@
+Travail de groupe (par 2)
+
+
+Exercice 1
+
+Mettre en forme page du site portfolio. Reproduire la page d'après le modèle fourni.
+
+Les différents attributs sont déjà en place pour vous faciter le travail.
+Vous devez placer les différentes images dans les emplacements qui devrait y correspondre.
+
+Vous devez placer les différentes définitions de style dans le fichier mon_style.css.
+
+
+UNITÉ DE VALEUR
+---------------
+Vous pouvez utiliser l'unité de valeur 'px' par exemple : 
+
+- titre H1 taille : 48px
+
+Mais vous pouvez utiliser une autre unité de valeur comme  'rem'.
+Dans ce cas vous devez indiquer en premier lieu dans la définition 'html' ceci :
+- font-size: 62.5%;
+
+et dans ce cas, notre titre h1 devient :
+
+- titre H1 taille : 4.8rem
+
+ATTENTION VOUS NE POUVEZ PAS UTILISER L'UNITÉ DE VALEUR 'px' et 'rem' vous devrez choisir.
+
+
+
+ALIGNEMENT
+----------
+
+Le système d'alignement est :
+- flex --> https://developer.mozilla.org/fr/docs/Web/CSS/flex
+- grid-area --> https://developer.mozilla.org/fr/docs/Web/CSS/grid-area
+- grid-template-areas --> https://developer.mozilla.org/fr/docs/Web/CSS/grid-template-areas
+
+Vous pouvez utiliser une autre méthode d'alignement si vous le souhaitez.
+
+
+
+RESSOURCES
+----------
+
+
+Site de référence pour vous aider en Français et en Anglais : 
+- https://developer.mozilla.org/fr/docs/Web/CSS
+- https://openclassrooms.com/fr/courses/1603881-apprenez-a-creer-votre-site-web-avec-html5-et-css3/1605060-mettez-en-place-le-css
+- https://www.w3.org/Style/Examples/011/firstcss
+- https://www.w3schools.com/cssref/default.asp
+- http://css.mammouthland.net/
+
+Vous avez le loisirs de chercher d'autres références.

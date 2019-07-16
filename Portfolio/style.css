@@ -1,0 +1,32 @@
+body{
+    background: white;
+}
+.sidebar{
+    background-image: url(image/background_sidebar.jpg);
+}
+h3::before{
+    content: url(image/web.png);
+    margin: 0 10px 0 0;
+    float: left;
+}
+h3:nth-child(2)::before{
+    content: url(image/infographie.png)
+}
+div.col-6:nth-child(2) > h3:nth-child(1)::before{
+    content: url(image/infographie.png)
+}
+div.col:nth-child(3) > h3:nth-child(1)::before{
+    content: url(image/video.png)
+}
+div.col:nth-child(4) > h3:nth-child(1)::before{
+    content: url(image/paquet.png)
+}
+ul li {
+    display: flex;
+    list-style: none;
+
+}
+.projet li{
+    display: inline;
+}
+
