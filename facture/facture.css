@@ -1,0 +1,39 @@
+.img1{
+    width: 246px;
+   
+}
+
+.container1{
+
+}
+.img2{
+    width: 500px;
+}
+.orange{
+    color: orange;
+}
+li{
+    list-style: none;;
+}
+.dino{
+    margin-left:-133px;
+}
+.table .thead-dark th {
+    color: #fff;
+    background-color:#1338be;
+    border-color: #1338be;
+}
+#formTB > tbody > tr:nth-child(2){
+    background-color: #ffb347;
+}
+#formTB > tbody > tr:nth-child(4){
+    background-color: #ffb347;
+}
+#formTB > tbody > tr:nth-child(7){
+    background-color: #ffb347;
+}
+.account{
+    margin-top: 60px;
+    margin-left: 40px
+
+}
