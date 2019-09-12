@@ -1,0 +1,56 @@
+.logo{
+width: 280px;
+height:140px ;
+}
+
+.font{
+    width: 1000px;
+    height: 500px;
+   
+}
+
+.col-5, .col-7{
+    text-align: center;
+    margin-top: 100px;
+}
+
+.card-img{
+    height: 500px;
+}
+.card-title, .card-text{text-align: center;
+    
+}
+
+.b.bleu{
+    text-align: center;
+}
+.row{
+    margin-right: -200px;
+    margin-top: 50px;
+}
+.card-img-overlay{
+    top: 50px;
+}
+.card{
+    margin-top: 50px;
+}
+.logfin{
+    width: 40px;
+}
+ul, li{
+    text-align: center;
+    list-style: none;
+    margin: 0;
+    display: table-cell;
+   
+    
+}
+.titrepers{
+    text-align: center;
+}
+
+.btn-outline-primary{
+    margin-block: 120px;
+    margin-left: 75px;
+}
+
