@@ -12,7 +12,7 @@ include("includes/navigation.php");
                                         <a href="mesfavoris.php" class="btn btn-danger" role="button">MES FAVORIS</a>
                                       </div>
                                     <div class="col-6">
-                                        <a href="mescartesdevisi.php" class="btn btn-success" role="button">MES CARTES DE VISITE</a>
+                                        <a href="mescartesdevisi.php" class="btn btn-success" role="button">MES CARTES &nbsp;<br> DE VISITE </a>
                                       </div>
                                     <div class="w-100"></div>
                                     <div class="col-6">

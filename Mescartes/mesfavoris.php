@@ -12,33 +12,34 @@ include("includes/navigation.php");
                                   <tr>
                                     <td><strong>Nom de l'enseigne</strong></td>
                                     <td>Mullet, Australian Salmon</td>
-                                    <td>  </td>
                                     <td class="lLink">Détail<i class="fas fa-comments"></i></td>
+                                    <th><a href="traitement_carte.php" class="btn btn-delete" role="button" type="submit" >Supprimer</a></th>
                                   </tr>
                                   <tr>
                                         <td><strong>Nom de l'enseigne</strong></td>
                                         <td>Mullet, Australian Salmon</td>
-                                        <td>  </td>
+  
                                         <td class="lLink">Détail<i class="fas fa-comments"></i></td>
+                                        <th><a href="traitement_carte.php" class="btn btn-delete" role="button" type="submit" >Supprimer</a></th>
                                       </tr>
                                   <tr>
                                       <tr>
                                     <td><strong>Nom de l'enseigne</strong></td>
                                     <td>Mullet, Australian Salmon</td>
-                                    <td>  </td>
                                     <td class="lLink">Détail<i class="fas fa-comments"></i></td>
+                                    <th><a href="traitement_carte.php" class="btn btn-delete" role="button" type="submit" >Supprimer</a></th>
                                   </tr>
                                   <tr>
                                         <td><strong>Nom de l'enseigne</strong></td>
                                         <td>Mullet, Australian Salmon</td>
-                                        <td>  </td>
                                         <td class="lLink">Détail<i class="fas fa-comments"></i></td>
+                                        <th><a href="traitement_carte.php" class="btn btn-delete" role="button" type="submit" >Supprimer</a></th>
                                     </tr>
                                     <tr>
                                         <td><strong>Nom de l'enseigne</strong></td>
                                         <td>Mullet, Australian Salmon</td>
-                                        <td>  </td>
                                         <td class="lLink">Détail<i class="fas fa-comments"></i></td>
+                                        <th><a href="traitement_carte.php" class="btn btn-delete" role="button" type="submit" >Supprimer</a></th>
                                     </tr>
                                 </tbody>
                               </table> 

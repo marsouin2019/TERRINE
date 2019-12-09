@@ -1,8 +1,10 @@
 
 <?php
+
 include("includes/header.php");
 include("includes/navigation.php");
 
+$_SESSION["carte"] = "visite";
 ?>
      <main>
           <h2>MES CARTES DE VISITES</h2>
@@ -22,7 +24,8 @@ include("includes/navigation.php");
                                       <th>Office</th>
                                       <th>Extn.</th>
                                       <th>Start date</th>
-                                      <th>Salary</th>
+                                      <th><a href="traitement_carte.php" class="btn btn-delete" role="button" type="submit" >Supprimer</a></th>
+                                      
                                   </tr>
                               </thead>
                               <tfoot>
@@ -32,7 +35,8 @@ include("includes/navigation.php");
                                       <th>Office</th>
                                       <th>Extn.</th>
                                       <th>Start date</th>
-                                      <th>Salary</th>
+                                      <th><a href="traitement_carte.php" class="btn btn-delete" role="button" type="submit" >Supprimer</a></th>
+
                                   </tr>
                               </tfoot>
                           </table>

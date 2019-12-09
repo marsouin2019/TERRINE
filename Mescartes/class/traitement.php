@@ -7,6 +7,7 @@ include("traitement_carte.php");
 
 
 $addInscrit = new traitement_inscription($mysqli);
+$addCarte = new traitement_carte($mysqli);
 
 
 
@@ -26,14 +27,17 @@ switch($_POST["frmCartes"])
         //echo "traitement email mot de passe";
         $addInscrit->resetPassword($_POST["frmEmail"]);
     break;
+    case "frmCarte" :
+        // add_carte
+        $addCarte->add_carte($_POST, $_FILES);
+        
+    break;
     default :
         // action par defaut
     break;
 }
 
-// my object
-$newCarte = new traitement_carte();
-$newCarte->add_carte($_POST, $_FILES);
+
 
 
 

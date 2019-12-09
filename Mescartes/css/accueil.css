@@ -25,30 +25,37 @@ a.btn {
     font-size: 100%;
 }
 .btn-danger{
-  height: 50% ;
+  height: 40% ;
   width: 40%;
  margin-bottom: 30%;
  margin-left: 30%;
+ padding-top: 8%;
  
 }
 .btn-success{
-  height: 50%;
+  height: 40%;
   width: 40%;
   margin-left: 30%;
+  padding-top: 8%;
 }
 .btn-warning{
-  height: 300% ;
+  height: 150% ;
   width: 40%;
   margin-left: 30%;
+  padding-top: 8%;
   color: white;
 }
 .btn-primary{
-  height: 300% ;
+  height: 150% ;
   width: 40%;
   margin-left: 30%;
+  padding-top: 8%;
 }
 .container-fluid{
   margin-bottom: 5%;
+}
+.btn-delete{
+  color: red;
 }
 
 /* Clear floats after the columns */
@@ -99,43 +106,44 @@ h2{
 }
 .btn-light1{
   color: white;
-  background: blue;
+  background: #45302f;
   margin-left: 40%;
   margin-bottom: 10%;
   margin-top: 10%;
 }
 .btn-light11{
-  background:white;
+  color: white;
+  background:#45302f;
   margin-left: 40%;
   margin-bottom: 10%;
   margin-top: 10%;
 }
 .btn-primary1{
   color: white;
-  background: blue;
+  background: #45302f;
   margin-left: 41%;
   
 }
 .btn-primary2{
   color: white;
-  background: blue;
+  background: #45302f;
   margin-left: 40%;
 }
 /*menu dropdown selection ou categorie*/
 .btn-secondaryajout{
   color: white;
-  background: blue;
+  background: #45302f;
   margin-left: 4%;
   
 }
 .btn-secondaryajout1{
   color: white;
-  background: blue;
+  background: #45302f;
   margin-left: 5%;
 }
 /* image recto verso*/
 .rounded{
-  width: 200px;
+  width: 150px;
 }
 /*STYLE POUR MENU DEROULANT
     STYLE POUR MENU DEROULANT*/
@@ -144,8 +152,8 @@ h2{
     }
 
     .mobile-container {
-      max-width: 100%;
       border-radius: 10%; 
+      width: 315%;
       
     }
 
@@ -250,6 +258,9 @@ h2{
   background:#2A1F07;
   color: white;
 }
+.info{
+  margin-left: 32%;
+}
 .ou{
   margin-left: 47%;
   margin-bottom: 2%;
@@ -283,6 +294,14 @@ h2{
 {
     body {
       width: 100%;
+      
+    }
+    .topnav{
+      width: 360%;
+    }
+    .mobile-container {
+      border-radius: 10%; 
+      width: 315%;
       
     }
     /* Vos règles CSS pour les mobiles ici */
@@ -367,6 +386,7 @@ h2{
       width: 50%;
       margin-top: 10%;
       margin-left: 28%;
+      padding: 5%;
 
     }
     .ou{
@@ -418,6 +438,7 @@ h2{
 /* Iphone Safari*/
 @media all and (max-device-width: 980px)
 {
+  
   .btn-primary1{
     margin-left: -10%;
     width: 100%;
@@ -457,22 +478,26 @@ h2{
   }
   .btn-warning{
     width: 100%;
-    height: 90%;
+    height: 96%;
     margin-left: 0%;
+    padding: 10%;
   }
   .btn-danger{
     width: 100%;
-    height: 70%;
+    height: 50%;
     margin-left: 0%;
+    padding: 10%;
   }
+
   .btn-success{
     width: 100%;
-    height: 70%;
+    height: 50%;
     margin-left: 18%;
+
   }
   .btn-primary{
     width: 100%;
-    height: 90%;
+    height: 96%;
     margin-left: 18%;
   }
   .container1{
@@ -481,6 +506,10 @@ h2{
   .w-100{
     margin-top: 10%
     ;
+  }
+  .logo img{
+    width: 80%;
+    margin-left: 15%;
   }
 }
 @media all and (max-device-width: 1200px)

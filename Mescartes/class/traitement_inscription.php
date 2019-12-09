@@ -44,12 +44,22 @@ class traitement_inscription
          if (strlen($data["frmPassword"]) < 8 ) 
          {
              //return false;
-             echo false;
+             echo "erreur mot de passe";
          }else {
             // verification egalite saisie mot de passe avant affection
             if($this->password == $this->passwordb)
             {
                 $this->password = password_hash($data["frmPassword"], PASSWORD_DEFAULT);
+
+                //requete d'insertion 
+
+                $resultat = $this->connectDB->query( "INSERT INTO inscrits ( nom , prenom, email, password ) 
+                VALUES ('".$this->nom."','".$this->prenom."','".$this->email."', '".$this->password."')");
+                print_r($resultat);
+
+                // redirection vers page login
+                header("Location: http://localhost/Mescartes/connexion.php", replace);
+                
             } else {
                 // erreur
                 echo "erreur mot de passe!!!";
@@ -60,13 +70,7 @@ class traitement_inscription
             
          }
          
-         //requete d'insertion 
-
-         $resultat = $this->connectDB->query( "INSERT INTO inscrits ( nom , prenom, email, password ) 
-         VALUES ('".$this->nom."','".$this->prenom."','".$this->email."', '".$this->password."')");
-         print_r($resultat);
-
-         // redirection vers page login
+         
 
 
     }
@@ -114,7 +118,7 @@ class traitement_inscription
                     $_SESSION["email"] = $row["email"]; 
 
                     //redirection vers page admin
-                    header('Location: http://localhost/Mescartes/index.php/', replace);
+                    header('Location: http://localhost/Mescartes/index.php', replace);
 
                     
                 }else{
@@ -149,7 +153,7 @@ class traitement_inscription
         /*
             UPDATE
         */
-        $resultat = $this->connectivité->query("UPDATE connects SET password='".$this->password."'WHERE email='".$this."'");
+        $resultat = $this->connectivité->query("UPDATE connects SET password='".$this->password."'WHERE email='".$this->email."'");
 
         print_r($resultat);
 

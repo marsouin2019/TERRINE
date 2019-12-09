@@ -262,7 +262,7 @@ class Personne
         //login il faut passer par l'id
         $requete = $this->connectDB->query("DELETE FROM connects WHERE id = '".$id."'");
     }
-    // indert data in  database
+    // insert data in  database
     // table personnes
     // table logins
     // requete insert data
